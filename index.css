@@ -1,0 +1,26 @@
+
+
+
+
+.page-wrapper {
+    background-color:white;
+}
+
+
+.top-bar {
+    padding-top:1rem;
+}
+
+.top-bar span:hover{
+    text-decoration:underline;
+}
+
+.left-group{
+    padding-left:1rem;
+    float:left;
+}
+
+.right-group{
+    padding-right:1rem;
+    float:right;
+}
