@@ -5,24 +5,44 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Google Homepage</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
     <script src='main.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     
 </head>
 <body>
     
     <div class = "page-wrapper">
         <div class = "top-bar">
-            <span class = "left-group">
+            <div class = "left-group">
                 <span>About</span>
                 <span>Store</span>
-            </span>
-            <span class = "right-group">
+            </div>
+            <div class = "right-group">
                 <span>Gmail</span>
                 <span>Images</span>
-                <span>9dots</span>
-                <span>profilePic</span>
-            </span>
+                <span class="glyphicon glyphicon-th"></span>
+                <span class = "profile_pic"><img src="./Craig_pic.jpeg" alt="Profile Picture!" height = "32px" width= "32px"></span>
+            </div>
+        </div>
+        <div class = "main-display flexbox">
+            <div class="logo-div">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="" />
+            </div>
+            <div class = "form-div">
+                <form class = "form flexbox">
+                    <div class = "search flexbox">
+                        <span class = "glyphicon glyphicon-search"></span>
+                        <input type = "text">
+                        <span class = "glyphicon glyphicon-music"></span>    
+                    </div>
+                    <div class = "buttons flexbox">
+                        <button id = "google-search">Google Search</button>
+                        <button id = "felling-lucky">I'm Feeling Lucky</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
