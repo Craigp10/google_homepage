@@ -1,67 +1,50 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Google Homepage</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='./styles/index.css'>
-  <!-- <script src='main.js'></script> -->
-
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Google Homepage</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <script src='main.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
 </head>
-
 <body>
-
-  <div class="homepage-wrapper">
-    <div class="top-bar">
-      <div class="google-group-content">
-        <a>About</a>
-        <a>Store</a>
-      </div>
-      <div class="personal-group">
-        <div class="personal-group-wrapper">
-          <div class="personal-group-content">
-            <div class="personal-group-content-gi">
-              <a>Gmail</a>
-              <a>Images</a>
+    
+    <div class = "page-wrapper">
+        <div class = "top-bar">
+            <div class = "left-group">
+                <span>About</span>
+                <span>Store</span>
             </div>
-            <div>
-              <div class="img-border">
-                <a>
-                  <img src="images/Google-0.svg" class="gb_Se" alt="google more" height=20px width=20px />
-                </a>
-              </div>
+            <div class = "right-group">
+                <span>Gmail</span>
+                <span>Images</span>
+                <span class="glyphicon glyphicon-th"></span>
+                <span class = "profile_pic"><img src="./Craig_pic.jpeg" alt="Profile Picture!" height = "32px" width= "32px"></span>
             </div>
-            <a class="profile_pic"><img src="./images/Craig_pic.jpeg" alt="Profile Picture!" height="32px"
-                width="32px"></a>
-          </div>
         </div>
-      </div>
-    </div>
-    <div class="logo">
-      <div class="logo-div">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google"
-          width=272px height=92px />
-      </div>
-    </div>
-    <div>
-      <div class="form-section">
-        <div class="form-section-searchbar">
-          <img src="images/Google-6.svg" class="search-icon" alt="google search" height=20px width=20px />
-          <input type="text">
-          <img src="images/Google-8.svg" class="speech-icon" alt="google speech to text" width="20px" height="20px" />
+        <div class = "main-display flexbox">
+            <div class="logo-div">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="" />
+            </div>
+            <div class = "form-div">
+                <form class = "form flexbox">
+                    <div class = "search flexbox">
+                        <span class = "glyphicon glyphicon-search"></span>
+                        <input type = "text">
+                        <span class = "glyphicon glyphicon-music"></span>    
+                    </div>
+                    <div class = "buttons flexbox">
+                        <button id = "google-search">Google Search</button>
+                        <button id = "felling-lucky">I'm Feeling Lucky</button>
+                    </div>
+                </form>
+            </div>
         </div>
-      </div>
-      <div class="form-section-buttons">
-        <button id="google-search">Google Search</button>
-        <button id="felling-lucky">I'm Feeling Lucky</button>
-      </div>
     </div>
-    <div class="footer">
-    </div>
-  </div>
 
 </body>
-
 </html>
